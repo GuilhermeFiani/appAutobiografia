@@ -53,15 +53,34 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="Atividade"
-        android:textSize="50dp"
+        android:fontFamily="@font/jua_regular"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="224dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/autobiografia"
+        app:layout_constraintCornerRadius="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_goneMarginTop="148dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:ignore="MissingConstraints" />
 
-
-
+    <ImageButton
+        android:layout_width="224dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/instagramBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
