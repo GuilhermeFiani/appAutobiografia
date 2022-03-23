@@ -63,24 +63,25 @@
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="224dp"
-        android:layout_height="48dp"
+        android:layout_height="49dp"
         android:layout_marginTop="65dp"
         android:src="@drawable/autobiografia"
         app:layout_constraintCornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_goneMarginTop="148dp"
-        tools:layout_editor_absoluteX="92dp"
-        tools:ignore="MissingConstraints" />
+        />
 
     <ImageButton
+        android:id="@+id/imgBtn"
         android:layout_width="224dp"
         android:layout_height="48dp"
-        android:layout_marginStart="92dp"
         android:layout_marginTop="35dp"
         android:src="@drawable/instagram"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-/>
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
