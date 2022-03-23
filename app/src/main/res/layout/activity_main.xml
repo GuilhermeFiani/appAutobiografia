@@ -18,7 +18,7 @@
         android:layout_marginTop="449dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/elipseVyni" />
+        android:src="@drawable/elipse_vyni"/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -28,7 +28,7 @@
         android:layout_marginTop="448dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/vyniBackground" />
+        android:src="@drawable/vyni_bg" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -37,7 +37,7 @@
         android:layout_marginTop="648dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/waveDois" />
+        app:srcCompat="@drawable/wave_dois" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/waveUm" />
+        app:srcCompat="@drawable/wave_um" />
 
     <TextView
         android:id="@+id/textView"
@@ -77,7 +77,7 @@
         android:layout_height="48dp"
         android:layout_marginStart="92dp"
         android:layout_marginTop="35dp"
-        android:src="@drawable/instagramBtn"
+        android:src="@drawable/instagram"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
 />

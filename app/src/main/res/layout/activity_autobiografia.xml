@@ -7,15 +7,71 @@
     tools:context=".Autobiografia"
     android:background="@color/pink">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elipse_vynidois" />
+
 
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="404dp"
-        android:text="Activity 2"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/jua_regular"
+        android:text="Atividade"
+        android:textSize="50sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rtng_vyni" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/foto_perfil" />
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="287dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:cardBackgroundColor="@color/grey"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meu nome é Guilherme Siqueira Fiani e esse aplicativo foi desenvolvido casualmente para fins educativos (entrega de uma atividade da matéria Desenvolvimento para Dispositivos Mobile).
+O aplicativo possui, como requisitado, uma tela inicial que contém dois botões: um que redireciona à uma autobiografia dentro do próprio aplicativo (intent explícito) e outro que redireciona à alguma mídia externa (intent implícita).
+A meu respeito, não há nada muito certo sobre o futuro acadêmico, mas recentemente tenho pensado sobre seguir com algum curso na área de tecnologia da informação. Consigo falar em inglês quase que fluentemente, até porque já estou com cerca de 4 anos de curso, mas um empecilho na minha pronúncia pode ser dado pela vergonha."
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="14dp"
+            android:textSize="14dp"
+            android:fontFamily="@font/roboto_regular"
+            android:justificationMode="inter_word"
+            />
+
+    </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
