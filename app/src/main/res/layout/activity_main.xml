@@ -66,7 +66,6 @@
         android:layout_height="49dp"
         android:layout_marginTop="65dp"
         android:src="@drawable/autobiografia"
-        app:layout_constraintCornerRadius="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
